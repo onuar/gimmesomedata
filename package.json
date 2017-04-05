@@ -1,0 +1,32 @@
+{
+  "name": "gimmesomedata",
+  "version": "1.0.0",
+  "description": "dumb data creator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onuar/gimmesomedata.git"
+  },
+  "keywords": [
+    "dumb",
+    "data",
+    "firebase",
+    "node",
+    "faker",
+    "training",
+    "data"
+  ],
+  "author": "onuar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onuar/gimmesomedata/issues"
+  },
+  "homepage": "https://github.com/onuar/gimmesomedata#readme",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "firebase": "^3.7.5"
+  }
+}
