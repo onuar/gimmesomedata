@@ -4,7 +4,8 @@
   "description": "dumb data creator",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/ts-node ./index.ts"
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/onuar/gimmesomedata#readme",
   "dependencies": {
+    "@types/node": "^7.0.12",
     "faker": "^4.1.0",
     "firebase": "^3.7.5",
     "nodemon": "^1.11.0",
