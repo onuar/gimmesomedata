@@ -1,6 +1,7 @@
 import * as faker from 'faker';
 import { Person } from './src/models/Person';
 import { Address } from './src/models/Address';
+import { firebaseRef } from './src/firebase/FirebaseRef';
 
 faker.locale = 'tr';
 
@@ -14,5 +15,10 @@ for (var i = 0; i < 100; i++) {
         var country = faker.address.country();
         let address = new Address(faker.random.number(), i, country);
         console.log(address);
+
+        var db = firebaseRef.database();
+        db.ref('people/' + i.toString()).set(
+            { person }
+        );
     }
 }
