@@ -1,7 +1,7 @@
 import * as faker from 'faker';
-import { Person } from './src/models/Person';
-import { Address } from './src/models/Address';
-import { firebaseRef } from './src/firebase/FirebaseRef';
+import { Person } from '../models/Person';
+import { Address } from '../models/Address';
+import { firebaseRef } from '../firebase/FirebaseRef';
 
 faker.locale = 'tr';
 
