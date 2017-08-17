@@ -1,5 +1,5 @@
 # gimmesomedata
-A dumb data (training data) creator on Firebase for imaginary real estate application.
+A dumb data (training data) creator on Firebase for some imaginary applications.
 
 # installation
 * git clone ...
